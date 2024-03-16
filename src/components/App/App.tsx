@@ -12,12 +12,10 @@ const App: React.FC = () => {
   const products = useSelector((state: RootState) => state);
 
   useEffect(() => {
-    console.log('start')
     dispatch(fetchProducts());
   }, [dispatch]);
 
   useEffect(() => {
-    console.log('products', products)
   }, [products]);
 
 
