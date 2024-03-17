@@ -1,13 +1,10 @@
-.itog {
-    position: relative;
+.cart-total {
+  position: relative;
 }
 
-
-
-.total-price{
-    position: fixed;
-    top: 50px;
-    right: calc((100vw - 1200px) /2 + 150px); 
-    transform: translate(+50%, +50%); 
+.cart-total__price {
+  position: fixed;
+  top: 50px;
+  right: calc((100vw - 1200px) / 2 + 150px);
+  transform: translate(+50%, +50%);
 }
-
